@@ -1,0 +1,25 @@
+{
+  "vendor": "JPMorgan Chase",
+  "title": "本地部署系统软件缺陷导致网银与转账大面积失败",
+  "tier": "C",
+  "tier_meaning": "C = 厂商未发布技术报告，仅有官方声明 / 状态页 / 通报",
+  "vendor_report_available": false,
+  "incident_ids": [],
+  "start_utc": "2026-11-16T18:30:00+00:00",
+  "end_utc": "2026-11-17T01:30:00+00:00",
+  "duration_minutes": 420,
+  "affected_products": [
+    "Chase 网银与转账",
+    "Zelle",
+    "跨行交易（BOA / US Bank / Wells Fargo / Capital One / Truist / PNC / TD / Amex）"
+  ],
+  "official_report_url": "https://x.com/Chase/status/2122433813955379268",
+  "official_report_kind": "Chase 官方 X 账号声明（一段话，无技术报告）",
+  "detected_by": "manual:november-cluster",
+  "dedupe_key": "manual:chase-20261116",
+  "duration_note": "开始时间取自第三方监测（Downdetector 约 13:30 ET）；结束时间为「当日结束前解决」的约数。",
+  "raw_files": [],
+  "captured_at": "2026-11-19T03:27:03.116932+00:00",
+  "revision": 1,
+  "recheck": false
+}

@@ -1,0 +1,32 @@
+{
+  "vendor": "FAA",
+  "title": "全美航班停飞：铜缆转光纤路由器打爆老旧设备",
+  "tier": "C",
+  "tier_meaning": "C = 厂商未发布技术报告，仅有官方声明 / 状态页 / 通报",
+  "vendor_report_available": false,
+  "incident_ids": [],
+  "start_utc": "2026-11-13T21:00:00+00:00",
+  "end_utc": "2026-11-14T01:00:00+00:00",
+  "duration_minutes": 240,
+  "affected_products": [
+    "全美机场航班放行",
+    "航路管制中心通信与雷达（22 个中心中 17 个受影响）"
+  ],
+  "official_report_url": "https://www.faa.gov/newsroom",
+  "official_report_kind": "FAA 新闻室与交通部长声明（无书面技术报告）",
+  "detected_by": "manual:november-cluster",
+  "dedupe_key": "manual:faa-20261113",
+  "duration_note": "停飞持续 >4 小时（240 分钟为下限）；航班取消延误持续到次日。",
+  "raw_files": [
+    {
+      "file": "raw/faa-newsroom-snapshot.html",
+      "bytes": 119455,
+      "sha256": "820622b6149d06b3594273f9fdbf424ef289d7da0a33b71b1697583891409777",
+      "source_url": "https://www.faa.gov/newsroom"
+    }
+  ],
+  "captured_at": "2026-11-19T03:27:03.116932+00:00",
+  "revision": 1,
+  "recheck": false,
+  "text_sha256": "0e5b11b5d98367cd58e669c0ec7270256461f5caebd54cd337f3b7a5490b7966"
+}

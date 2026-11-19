@@ -61,5 +61,7 @@
   ],
   "captured_at": "2026-11-19T02:47:59.810769+00:00",
   "detected_by": "google_cloud",
-  "dedupe_key": "gcp:Xs2XTHzAVC9YnafnPyzj"
+  "dedupe_key": "gcp:Xs2XTHzAVC9YnafnPyzj",
+  "recheck": true,
+  "text_sha256": "50311125265f18ffcdb32e8dd0ef0370501d3b0caded553d38ef7ecb6e7e462a"
 }

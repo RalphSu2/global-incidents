@@ -1,0 +1,37 @@
+{
+  "vendor": "Microsoft",
+  "title": "Microsoft 365 / Exchange Online 级联故障（近 24 小时）",
+  "tier": "A",
+  "tier_meaning": "A = 厂商发布了正式技术报告（Preliminary PIR）",
+  "vendor_report_available": true,
+  "incident_ids": [
+    "EX1550543",
+    "MO1550821"
+  ],
+  "start_utc": "2026-11-12T16:20:00+00:00",
+  "end_utc": "2026-11-13T16:10:00+00:00",
+  "duration_minutes": 1430,
+  "affected_products": [
+    "Exchange Online",
+    "Outlook",
+    "Microsoft Teams",
+    "Microsoft 365 全家桶"
+  ],
+  "official_report_url": "https://x.com/clamanna/status/2122209697226948729",
+  "official_report_kind": "Microsoft 365 Preliminary Post Incident Report（正文在 M365 管理中心内，公开仅有执行摘要 + 第三方 PDF 镜像）",
+  "detected_by": "manual:november-cluster",
+  "dedupe_key": "manual:m365-20261112",
+  "evidence_note": "PIR 原文仅在企业租户的 M365 Admin Center 内可见；raw/ 归档的是第三方公开镜像 PDF，非厂商原始发布渠道。",
+  "raw_files": [
+    {
+      "file": "raw/preliminary-pir-thirdparty-mirror.pdf",
+      "bytes": 123975,
+      "sha256": "3c735ddad074c822e2cfdda4ad85ac1c85c62df0c1e7e6b27f14c532c641085b",
+      "source_url": "https://tianyin.github.io/misc/prepir_microsoft_365_11-12-2026.pdf"
+    }
+  ],
+  "captured_at": "2026-11-19T03:27:03.116932+00:00",
+  "revision": 1,
+  "recheck": false,
+  "text_sha256": "3c735ddad074c822e2cfdda4ad85ac1c85c62df0c1e7e6b27f14c532c641085b"
+}

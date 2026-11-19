@@ -1,0 +1,23 @@
+{
+  "vendor": "United Airlines",
+  "title": "配重平衡系统故障导致航班延误",
+  "tier": "C",
+  "tier_meaning": "C = 厂商未发布技术报告，仅有官方声明 / 状态页 / 通报",
+  "vendor_report_available": false,
+  "incident_ids": [],
+  "start_utc": "2026-11-16T00:00:00+00:00",
+  "end_utc": null,
+  "duration_minutes": 90,
+  "affected_products": [
+    "航班配重与平衡计算（weight & balance）"
+  ],
+  "official_report_url": "",
+  "official_report_kind": "工会与公司发言人表述（无书面报告）",
+  "detected_by": "manual:november-cluster",
+  "dedupe_key": "manual:united-20261116",
+  "duration_note": "约 90 分钟，具体起止时间未取得精确值。",
+  "raw_files": [],
+  "captured_at": "2026-11-19T03:27:03.116932+00:00",
+  "revision": 1,
+  "recheck": false
+}
