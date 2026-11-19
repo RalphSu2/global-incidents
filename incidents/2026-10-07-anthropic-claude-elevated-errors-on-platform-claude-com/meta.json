@@ -23,5 +23,6 @@
   "captured_at": "2026-11-19T02:47:59.810769+00:00",
   "detected_by": "statuspage:anthropic-claude",
   "dedupe_key": "sp-anthropic-claude:b38b44bbe150be0f",
-  "recheck": false
+  "recheck": false,
+  "text_sha256": "afc6b6214380673b2641198357975d7c875b8181d030801063e3070b239a13d3"
 }
