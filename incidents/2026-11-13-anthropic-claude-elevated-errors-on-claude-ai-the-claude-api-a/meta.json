@@ -1,0 +1,26 @@
+{
+  "slug": "2026-11-13-anthropic-claude-elevated-errors-on-claude-ai-the-claude-api-a",
+  "vendor": "Anthropic (Claude)",
+  "title": "Elevated errors on claude.ai, the Claude API, and Claude Code",
+  "tier": "B",
+  "tier_meaning": "B = 仅厂商状态页事故记录",
+  "incident_ids": [],
+  "severity_ours": "major",
+  "start_utc": "2026-11-13T13:09:00+00:00",
+  "end_utc": "2026-11-13T15:38:49+00:00",
+  "duration_minutes": 149,
+  "affected_products": [],
+  "official_report_url": "https://status.claude.com/incidents/34wq7gxnxvvm",
+  "official_report_kind": "Anthropic (Claude) 状态页事故记录",
+  "raw_files": [
+    {
+      "file": "raw/official-report.html",
+      "bytes": 76074,
+      "sha256": "cb346edaacb8695b1bd2c92aaec0c0d3ba5922cbd16bef5d675d44500412e8ba",
+      "source_url": "https://status.claude.com/incidents/34wq7gxnxvvm"
+    }
+  ],
+  "captured_at": "2026-11-19T02:47:59.810769+00:00",
+  "detected_by": "statuspage:anthropic-claude",
+  "dedupe_key": "sp-anthropic-claude:569f7fe9bab90f8e"
+}
