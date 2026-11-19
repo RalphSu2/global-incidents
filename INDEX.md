@@ -35,4 +35,4 @@ incidents/<日期>-<厂商>-<标题>/
 | 2026-10-20 | Google Cloud | [Multiple services were experiencing issues in the europe-west2 region.](incidents/2026-10-20-google-cloud-multiple-services-were-experiencing-issues-in/) | 368 min | Google Cloud Incident Report (厂商官方) |
 | 2026-10-07 | Anthropic (Claude) | [Elevated errors on platform.claude.com](incidents/2026-10-07-anthropic-claude-elevated-errors-on-platform-claude-com/) | 8915 min | Anthropic (Claude) 状态页事故记录 |
 
-_最后更新：2026-11-19 03:00 UTC_
+_最后更新：2026-11-19 03:04 UTC_
