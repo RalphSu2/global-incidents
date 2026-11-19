@@ -1,0 +1,30 @@
+{
+  "vendor": "Microsoft Azure",
+  "title": "Azure North Europe 多台网络设备断电",
+  "tier": "C",
+  "tier_meaning": "C = 厂商未发布技术报告，仅有官方声明 / 状态页 / 通报",
+  "vendor_report_available": false,
+  "incident_ids": [],
+  "start_utc": "2026-11-09T09:17:00+00:00",
+  "end_utc": "2026-11-09T12:56:00+00:00",
+  "duration_minutes": 219,
+  "affected_products": [
+    "North Europe 区域多项服务（同一小时内 23 家服务报告异常）"
+  ],
+  "official_report_url": "https://azure.status.microsoft/en-us/status/history/",
+  "official_report_kind": "Azure 门户内 Service Issue 通知（未达 Scenario 1，不公开 PIR）",
+  "detected_by": "manual:november-cluster",
+  "dedupe_key": "manual:azure-ne-20261109",
+  "duration_note": "时长由通知中的起止时间计算（09:17→12:56 UTC = 219 分钟）；门户通知精确到分钟的口径可能有偏差。",
+  "raw_files": [
+    {
+      "file": "raw/azure-status-history-snapshot.html",
+      "bytes": 102231,
+      "sha256": "d46a1a59b01016393150e95f0d73113f444ad5cbdbb0b673dc17d20f21def475",
+      "source_url": "https://azure.status.microsoft/en-us/status/history/"
+    }
+  ],
+  "captured_at": "2026-11-19T03:27:03.116932+00:00",
+  "revision": 1,
+  "recheck": false
+}

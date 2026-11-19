@@ -1,0 +1,39 @@
+{
+  "vendor": "AWS",
+  "title": "us-east-1 认证失败引发 11 项服务连锁降级",
+  "tier": "C",
+  "tier_meaning": "C = 厂商未发布技术报告，仅有官方声明 / 状态页 / 通报",
+  "vendor_report_available": false,
+  "incident_ids": [],
+  "start_utc": "2026-11-15T11:05:00+00:00",
+  "end_utc": "2026-11-15T14:21:00+00:00",
+  "duration_minutes": 196,
+  "affected_products": [
+    "IAM Identity Center",
+    "Sign Up",
+    "Kiro",
+    "Amazon Connect",
+    "CloudWatch",
+    "NAT Gateway",
+    "Elastic Load Balancing",
+    "VPC Lattice",
+    "OpenSearch",
+    "Step Functions",
+    "IoT Device Management"
+  ],
+  "official_report_url": "https://aws.amazon.com/premiumsupport/technology/pes/",
+  "official_report_kind": "AWS 未发布 Post-Event Summary（该页面最新条目仍为 2025-10-19）",
+  "detected_by": "manual:november-cluster",
+  "dedupe_key": "manual:aws-use1-20261115",
+  "raw_files": [
+    {
+      "file": "raw/aws-pes-index-snapshot.html",
+      "bytes": 322545,
+      "sha256": "4156b4a3c5d96311fb77ff5872e29a2bde5c6589d69c141ed07c9e9898d367d7",
+      "source_url": "https://aws.amazon.com/premiumsupport/technology/pes/"
+    }
+  ],
+  "captured_at": "2026-11-19T03:27:03.116932+00:00",
+  "revision": 1,
+  "recheck": false
+}

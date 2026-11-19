@@ -1,0 +1,27 @@
+{
+  "vendor": "Workday",
+  "title": "灾备演练把 DR 环境连到了生产数据库",
+  "tier": "C",
+  "tier_meaning": "C = 厂商未发布技术报告，仅有官方声明 / 状态页 / 通报",
+  "vendor_report_available": false,
+  "incident_ids": [],
+  "start_utc": "2026-11-13T20:24:00+00:00",
+  "end_utc": "2026-11-14T16:00:00+00:00",
+  "duration_minutes": 1056,
+  "affected_products": [
+    "打卡",
+    "薪酬查询",
+    "请假",
+    "福利登记",
+    "任务与集成"
+  ],
+  "official_report_url": "https://www.workday.com/en-us/resources/status.html",
+  "official_report_kind": "Workday 客户状态页通知（无公开永久链接）",
+  "detected_by": "manual:november-cluster",
+  "dedupe_key": "manual:workday-20261113",
+  "duration_note": "开始时间精确（20:24 UTC）；结束时间为「大部分客户恢复」的约数，长尾客户恢复更晚。",
+  "raw_files": [],
+  "captured_at": "2026-11-19T03:27:03.116932+00:00",
+  "revision": 1,
+  "recheck": false
+}

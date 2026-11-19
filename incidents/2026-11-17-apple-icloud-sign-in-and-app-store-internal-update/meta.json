@@ -1,0 +1,35 @@
+{
+  "vendor": "Apple",
+  "title": "iCloud 登录与 App Store 故障：仅一句「内部更新」",
+  "tier": "C",
+  "tier_meaning": "C = 厂商未发布技术报告，仅有官方声明 / 状态页 / 通报",
+  "vendor_report_available": false,
+  "incident_ids": [],
+  "start_utc": "2026-11-17T16:45:00+00:00",
+  "end_utc": "2026-11-17T21:15:00+00:00",
+  "duration_minutes": 270,
+  "affected_products": [
+    "iCloud 登录",
+    "App Store",
+    "Apple Music",
+    "iCloud.com",
+    "Apple Business Manager",
+    "Apple School Manager",
+    "Schoolwork"
+  ],
+  "official_report_url": "https://www.apple.com/support/systemstatus/",
+  "official_report_kind": "Apple 系统状态页（仅状态记录，无任何说明）",
+  "detected_by": "manual:november-cluster",
+  "dedupe_key": "manual:apple-20261117",
+  "raw_files": [
+    {
+      "file": "raw/apple-developer-system-status-snapshot.html",
+      "bytes": 98837,
+      "sha256": "5970fa654c57dfe845235a1e6eab5395710ed5f27044be6343d51a8f2bb4006d",
+      "source_url": "https://developer.apple.com/system-status/"
+    }
+  ],
+  "captured_at": "2026-11-19T03:27:03.116932+00:00",
+  "revision": 1,
+  "recheck": false
+}

@@ -1,0 +1,25 @@
+{
+  "vendor": "NSA",
+  "title": "NSANet 机密内网临时降级（例行维护期间）",
+  "tier": "C",
+  "tier_meaning": "C = 厂商未发布技术报告，仅有官方声明 / 状态页 / 通报",
+  "vendor_report_available": false,
+  "incident_ids": [],
+  "start_utc": "2026-11-17T00:00:00+00:00",
+  "end_utc": null,
+  "duration_minutes": null,
+  "affected_products": [
+    "NSANet（机密级内网）",
+    "内部机密信息共享"
+  ],
+  "official_report_url": "https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4650245/nsa-statement-on-network-issues/",
+  "official_report_kind": "NSA 官方新闻稿声明（短声明，无技术报告）",
+  "detected_by": "manual:november-cluster",
+  "dedupe_key": "manual:nsa-20261117",
+  "duration_note": "仅知发生于 11-17 上午，未公布具体时长与精确起止时刻。",
+  "evidence_note": "NSA 官网对本机 UA 返回 403（反爬），未能归档原文 HTML；声明全文以引用形式记录于 README。",
+  "raw_files": [],
+  "captured_at": "2026-11-19T03:27:03.116932+00:00",
+  "revision": 1,
+  "recheck": false
+}
